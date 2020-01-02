@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('Test') {
+        stage('Vai') {
             steps {
-                sh 'echo "Fail!"; exit 1'
+                sh 'echo "Foi com o update!"; exit 0'
             }
         }
     }
